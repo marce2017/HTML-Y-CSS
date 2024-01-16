@@ -1,0 +1,42 @@
+/* reset.css */
+
+/* Box-sizing reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl, dd
+ {
+  margin: 0;
+}
+
+/* Remove default padding */
+p, h1, h2, h3, h4, h5, h6 
+{
+  padding: 0;
+}
+
+/* Remove default list styles */
+ul, ol {
+  list-style: none;
+}
+
+/* Remove default styles for anchor links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Set font size and line height for better typography */
+body {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Remove outline on focused elements for accessibility */
+:focus {
+  outline: 0;
+}
